@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+	background-image: url(file:///C:/Users/%D0%9A%D0%9E%D0%94%D0%94%D0%98%D0%9A/Desktop/sw/img/MilkyWay.jpg);
+	color: #f1f1f1;
+	margin:auto;
+	padding:auto;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.text{
+	border: 2px solid #f1f1f1;
+	border-radius: 30px;
+	font-size: 20px;
+	font-family: monospace;
+}
+.kartinki{
+	border:2px solid #f1f1f1;
+	height: 1000px;
+	border-radius: 100%;
+	background-position: center;
+	background-image: url(file:///C:/Users/%D0%9A%D0%9E%D0%94%D0%94%D0%98%D0%9A/Desktop/sw/img/8.jpg);
+	background-size:100% 100%;
+}

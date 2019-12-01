@@ -21,3 +21,12 @@ body{
 	background-image: url(img/8.jpg);
 	background-size:100% 100%;
 }
+.photo{
+	border:2px solid #f1f1f1;
+	height: 1000px;
+	border-radius: 100%;
+	background-position: center;
+	background-image: url(img/7.jpg);
+	background-size:100% 100%;
+}
+}

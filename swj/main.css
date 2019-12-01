@@ -12,25 +12,46 @@ body{
 	border-radius: 30px;
 	font-size: 20px;
 	font-family: monospace;
+	box-shadow: 3px 2px 5px 2px black;
 }
-main{
+.SW{
 	display: flex;
-	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 .kartinki{
+	z-index: 4;
 	border:2px solid #f1f1f1;
-	height: 1000px;
+	width: 490px;
+	height: 490px;
 	border-radius: 100%;
 	background-position: center;
 	background-image: url(img/8.jpg);
 	background-size:100% 100%;
 }
 .photo{
+	z-index: 3;
 	border:2px solid #f1f1f1;
-	height: 1000px;
+	width: 490px;
+	height: 490px;
 	border-radius: 100%;
 	background-position: center;
 	background-image: url(img/7.jpg);
 	background-size:100% 100%;
 }
-
+.HP{
+	z-index: 5;
+	border:2px solid #f1f1f1;
+	width: 490px;
+	height: 490px;
+	border-radius: 100%;
+	background-position: center;
+	background-image: url(img/1.jpg);
+	background-size:100% 100%;
+}
+.a{
+opacity: 0.6;
+}
+.a:hover{
+transform: scale(1.15);
+opacity: 1;
+}
